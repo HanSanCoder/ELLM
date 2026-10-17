@@ -1,0 +1,7 @@
+torch
+transformers>=4.51
+peft
+openai
+librosa
+pillow
+scikit-learn

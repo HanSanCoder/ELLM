@@ -1,0 +1,53 @@
+# Local datasets and model assets
+/CH-SIMS/
+/data/
+/models/
+/ravdess_raw/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Markdown documents are excluded from this code-only repository
+*.md
+*.MD
+
+# Python caches, environments, and generated output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+outputs/
+checkpoints/
+runs/
+*.log
+
+# Local editor settings and credentials
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
